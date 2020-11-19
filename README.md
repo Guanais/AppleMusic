@@ -3,7 +3,7 @@
 - SwiftUI 2.0
 
 - Apple Music Animations With Mini Player using Matched Geometry Effect for animated transitions.
-- Works in white and dark mode
+- Works on white and dark mode
 
 
 
