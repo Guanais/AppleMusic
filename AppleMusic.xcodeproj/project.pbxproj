@@ -11,6 +11,11 @@
 		441A18A52563350900BCD2B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441A18A42563350900BCD2B1 /* ContentView.swift */; };
 		441A18A72563350D00BCD2B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441A18A62563350D00BCD2B1 /* Assets.xcassets */; };
 		441A18AA2563350D00BCD2B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441A18A92563350D00BCD2B1 /* Preview Assets.xcassets */; };
+		441A18B425633AD600BCD2B1 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441A18B325633AD600BCD2B1 /* TabBar.swift */; };
+		441A18B825633E2C00BCD2B1 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441A18B725633E2B00BCD2B1 /* BlurView.swift */; };
+		441A18BB2563405700BCD2B1 /* MiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441A18BA2563405700BCD2B1 /* MiniPlayer.swift */; };
+		441A18BE25634CF500BCD2B1 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441A18BD25634CF500BCD2B1 /* Search.swift */; };
+		449F9ECF25661179007FF830 /* Adjustments(test).swift in Sources */ = {isa = PBXBuildFile; fileRef = 449F9ECE25661179007FF830 /* Adjustments(test).swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		441A18A62563350D00BCD2B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		441A18A92563350D00BCD2B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		441A18AB2563350D00BCD2B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		441A18B325633AD600BCD2B1 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		441A18B725633E2B00BCD2B1 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		441A18BA2563405700BCD2B1 /* MiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayer.swift; sourceTree = "<group>"; };
+		441A18BD25634CF500BCD2B1 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		449F9ECE25661179007FF830 /* Adjustments(test).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Adjustments(test).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 		441A18A12563350900BCD2B1 /* AppleMusic */ = {
 			isa = PBXGroup;
 			children = (
+				441A18B225633ABA00BCD2B1 /* View */,
 				441A18A22563350900BCD2B1 /* AppleMusicApp.swift */,
 				441A18A42563350900BCD2B1 /* ContentView.swift */,
 				441A18A62563350D00BCD2B1 /* Assets.xcassets */,
@@ -67,6 +78,18 @@
 				441A18A92563350D00BCD2B1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		441A18B225633ABA00BCD2B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				441A18B325633AD600BCD2B1 /* TabBar.swift */,
+				441A18B725633E2B00BCD2B1 /* BlurView.swift */,
+				441A18BA2563405700BCD2B1 /* MiniPlayer.swift */,
+				449F9ECE25661179007FF830 /* Adjustments(test).swift */,
+				441A18BD25634CF500BCD2B1 /* Search.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				441A18B425633AD600BCD2B1 /* TabBar.swift in Sources */,
+				449F9ECF25661179007FF830 /* Adjustments(test).swift in Sources */,
+				441A18B825633E2C00BCD2B1 /* BlurView.swift in Sources */,
 				441A18A52563350900BCD2B1 /* ContentView.swift in Sources */,
+				441A18BE25634CF500BCD2B1 /* Search.swift in Sources */,
+				441A18BB2563405700BCD2B1 /* MiniPlayer.swift in Sources */,
 				441A18A32563350900BCD2B1 /* AppleMusicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
